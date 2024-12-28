@@ -13,5 +13,5 @@ export default {
     },
   ],
   plugins: [typescript()],
-  external: ["react", "react-dom", "axe-core"],
+  external: ["react", "react-dom", "axe-core", "tslib"],
 };
