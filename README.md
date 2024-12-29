@@ -4,7 +4,7 @@ Here’s a complete **README.md** for your Accessibility Helpers package:
 
 # **Accessibility Helpers**
 
-![npm]((https://img.shields.io/npm/v/react-access-helper))  
+![npm]([https://img.shields.io/npm/v/react-access-helper])  
 A lightweight library for improving accessibility in React applications. This package includes tools and hooks to simplify focus management, detect accessibility issues, and dynamically apply ARIA attributes.
 
 ---
