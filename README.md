@@ -27,13 +27,13 @@ A lightweight library for improving accessibility in React applications. This pa
 Install the package via npm:
 
 ```bash
-npm install accessibility-helpers
+npm install react-access-helper
 ```
 
 Or with Yarn:
 
 ```bash
-yarn add accessibility-helpers
+yarn add react-access-helper
 ```
 
 ---
@@ -45,7 +45,7 @@ Automatically manage focus for elements to enhance keyboard navigation.
 
 ```tsx
 import React, { useRef } from "react";
-import { useAccessibleFocus } from "accessibility-helpers";
+import { useAccessibleFocus } from "react-access-helper";
 
 const App = () => {
   const ref = useRef<HTMLButtonElement>(null);
@@ -66,7 +66,7 @@ Identify and debug accessibility issues during development.
 
 ```tsx
 import React, { useEffect } from "react";
-import { checkAccessibility } from "accessibility-helpers";
+import { checkAccessibility } from "react-access-helper";
 
 const App = () => {
   useEffect(() => {
@@ -90,7 +90,7 @@ export default App;
 Simplify adding ARIA attributes programmatically.
 
 ```tsx
-import { addAriaAttributes } from "accessibility-helpers";
+import { addAriaAttributes } from "react-access-helper";
 
 const element = document.getElementById("example");
 if (element) {
