@@ -1,6 +1,4 @@
-Here’s a complete **README.md** for your Accessibility Helpers package:
 
----
 
 # **Accessibility Helpers**
 
